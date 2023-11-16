@@ -1,0 +1,38 @@
+User - Chett        Post
+                    Post
+                    Post
+                    Post
+                    Post
+                    Post
+
+User --< Post
+
+User has many Posts
+
+Post belongs to a User
+
+------------
+
+King --< Duke --< Baron --< Peasant
+
+------------
+
+Teacher --< Student
+
+------------
+
+Company --< Employee
+
+Single Source of Truth -- Relationship is stored in a single place instead of spread out
+
+------------
+
+Doctor --< Appointment >-- Patient
+
+------------
+
+Student --< Enrollment >-- Course
+
+------------
+
+Author --< AuthorBook >-- Book
